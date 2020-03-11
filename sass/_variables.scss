@@ -7,23 +7,25 @@
 ///*    SIX PROVIDED COLORS CAN BE FOUND ON FOLDER COLORS/COLORS.TXT        */
 ///*========================================================================*/
 $primary-color: #06A763;
-$accent-color: #1976D2;
+$accent-color: #06A763;
+
 
 $primary-color-light: lighten($primary-color, 7%);
 $primary-color-dark: darken($primary-color, 12%);
 
 $accent-color-light: lighten($accent-color, 7%);
 $accent-color-dark: darken($accent-color, 12%);
-$body-color: #f5f5f5;
+$body-color: #33373a;
 $body-color-dark: darken($body-color, 10%);
-$white: #fff;
+$white: $body-color;
+
 
 
 ///*=======================================*/
 ///*                 TYPO                  */
 ///*=======================================*/
 $font-color-light: #FFFFFF;
-$font-color-dark: #616161;
+$font-color-dark: #7b7b7b;
 $p-color: #757575;
 $font-weight-thin: 100;
 $font-weight-extra-light: 200;
@@ -49,9 +51,9 @@ $text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
 ///*=======================================*/
 ///*           V-CARD COLORS               */
 ///*=======================================*/
-$slant-bg : $primary-color;
-$v-card-bg : $primary-color;
-$text-icon-color : $white;
+$slant-bg : $body-color;
+$v-card-bg : $body-color;
+$text-icon-color : $font-color-dark;
 
 
 ///*=======================================*/
@@ -60,6 +62,6 @@ $text-icon-color : $white;
 $overlay: rgba(0, 0, 0, .3);
 $port_overlay: rgba(0, 0, 0, .7);
 $port_h2: rgba(72, 76, 97, 0.22);
-$port_p: $white;
+$port-p: $font-color-dark;
 $menu-bg : $primary-color;
-$box-inner : $accent-color;
+$box-inner : $body-color;
