@@ -1,0 +1,74 @@
+//===========================================================================//
+// PRICING SECTION
+//===========================================================================//
+@import "variables";
+/*pricing section*/
+#pricing-table {
+  .card {
+    /*pricing card class*/
+    padding: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    margin-bottom: 8px;
+    &:hover {
+      /*hover effect*/
+      transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      box-shadow: $box-shadow-hover;
+    }
+    .pricing-top {
+      /*pricing details*/
+      width: 100%;
+      background: $primary-color;
+      color: $white;
+      padding: 30px 0 40px 0;
+      text-align: center;
+      p {
+        /*pricing headings*/
+        margin-bottom: 40px;
+        font-size: 20px;
+        color: $white;
+        em {
+          font-size: 54px;
+          font-style: normal;
+        }
+        sup {
+          font-size: 30px;
+        }
+      }
+      span {
+        font-size: 14px;
+        text-transform: uppercase;
+        border: 2px solid $white;
+        padding: 5px 10px;
+      }
+    }
+    .pricing-bottom {
+      /*pricing bottom*/
+      margin: 15px 0;
+      ul li {
+        /*pricing package details*/
+        list-style: none;
+        padding: 0 15px;
+        margin: 0 auto;
+        line-height: 1.7;
+      }
+    }
+
+    .btn {
+      /*purchase button*/
+      background: $primary-color;
+      margin-bottom: 5px;
+      color: $white;
+      border-radius: 2px;
+      &:hover {
+        /*button hover effect*/
+        background: $primary-color-dark;
+      }
+    }
+  }
+}

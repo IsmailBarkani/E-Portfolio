@@ -1,0 +1,126 @@
+//===========================================================================//
+// CONTACT SECTION
+//===========================================================================//
+@import "variables";
+@import "mediamixins";
+
+/*contact section*/
+#contact {
+
+  .card {
+    .card-content {
+      /*form content*/
+      .input-field {
+        /*input field*/
+        position: relative;
+        margin-top: 1rem;
+        margin-bottom: 12px;
+        label {
+          /*input label*/
+          left: 0;
+          font-weight: normal;
+          top: 0.5rem;
+        }
+      }
+      .btn {
+        /*send button*/
+        background-color: $primary-color;
+        width: 115px;
+        color: $white;
+        border-radius: 2px;
+        margin-top: 7px;
+        &:hover {
+          /*hover effect*/
+          background: $primary-color-dark;
+        }
+      }
+      .thankyou {
+        text-align: center;
+      }
+    }
+    .progress {
+      /*progress bar*/
+      position: relative;
+      height: 4px;
+      display: block;
+      width: 100%;
+      background-color: $accent-color;
+      border-radius: 0;
+      margin: -4px 0 0;
+    }
+    .indeterminate {
+      background-color: $white;
+    }
+  }
+
+  #myMap {
+    /*google map*/
+    width: 100%;
+    height: 417px;
+    .map-label {
+      /*map label*/
+      width: 36px;
+      height: 36px;
+      -webkit-border-radius: 50% 50% 50% 0;
+      border-radius: 50% 50% 50% 0;
+      background: $accent-color;
+      position: absolute;
+      -webkit-transform: rotate(-45deg)!important;
+      -moz-transform: rotate(-45deg)!important;
+      -o-transform: rotate(-45deg)!important;
+      -ms-transform: rotate(-45deg)!important;
+      transform: rotate(-45deg)!important;
+      box-shadow: $box-shadow-light;
+    }
+  }
+  @-moz-document url-prefix() {
+    /*for firefox*/
+    #myMap {
+      /*google map*/
+      height: 412px;
+    }
+  }
+  @include phone_480 {
+    #myMap {
+      /*map*/
+      height: 300px;
+    }
+  }
+
+  input:not([type]):focus:not([readonly]) + label, input[type=text]:focus:not([readonly]) + label, input[type=password]:focus:not([readonly]) + label, input[type=email]:focus:not([readonly]) + label, input[type=url]:focus:not([readonly]) + label, input[type=time]:focus:not([readonly]) + label, input[type=date]:focus:not([readonly]) + label, input[type=datetime-local]:focus:not([readonly]) + label, input[type=tel]:focus:not([readonly]) + label, input[type=number]:focus:not([readonly]) + label, input[type=search]:focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+    /*materialize form*/
+    color: $accent-color;
+  }
+
+  input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    /*materialize form*/
+    border-bottom: 1px solid $accent-color;
+    box-shadow: 0 1px 0 0 $accent-color;
+  }
+
+  input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    /*materialize form*/
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $body-color-dark;
+    border-radius: 0;
+    outline: none;
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 6px 0 6px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all .5s;
+  }
+
+  textarea.materialize-textarea {
+    /*message field*/
+    overflow-y: hidden;
+    resize: none;
+    min-height: 5rem;
+  }
+}
+
+

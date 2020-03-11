@@ -1,0 +1,78 @@
+//===========================================================================//
+// SKILLS SECTION
+//===========================================================================//
+@import "variables";
+/*skills section*/
+#skills {
+  .card {
+    background: $primary-color;
+    /*skills title*/
+    .skills-title {
+      /*skills title*/
+      margin: 15px 0;
+      h6 {
+        /*title style*/
+        color: $white;
+        text-shadow: $text-shadow;
+      }
+    }
+
+    .skillbar {
+      /*whole bar*/
+      position: relative;
+      display: block;
+      margin-bottom: 17px;
+      margin-top: 45px;
+      width: 100%;
+      padding: 0 0;
+      background: $primary-color-dark;
+      height: 4px;
+      -webkit-transition: 0.4s linear;
+      -moz-transition: 0.4s linear;
+      -ms-transition: 0.4s linear;
+      -o-transition: 0.4s linear;
+      transition: 0.4s linear;
+      -webkit-transition-property: width, background-color;
+      -moz-transition-property: width, background-color;
+      -ms-transition-property: width, background-color;
+      -o-transition-property: width, background-color;
+      transition-property: width, background-color;
+      .skillbar-title {
+        /*skill bar title*/
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 1em;
+        span {
+          /*title*/
+          display: block;
+          padding: 3px 0;
+          margin-top: -25px;
+          line-height: 15px;
+          color: $white;
+        }
+      }
+
+      .skillbar-bar {
+        /*skill bar*/
+        height: 4px;
+        width: 0;
+        background: $white;
+        overflow: hidden;
+      }
+
+      .skill-bar-percent {
+        /*skill percentage text*/
+        position: absolute;
+        right: 1px;
+        top: -20px;
+        font-size: .8em;
+        line-height: 15px;
+        color: $white;
+      }
+
+    }
+  }
+}
+
+

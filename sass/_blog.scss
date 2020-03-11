@@ -1,0 +1,144 @@
+//===========================================================================//
+// BLOG SECTION
+//===========================================================================//
+@import "variables";
+@import "mediamixins";
+
+/*blog section*/
+#blog {
+  .blog {
+    /*blog class*/
+    position: relative;
+    height: 21em;
+    &:after {
+      clear: both;
+      content: '';
+      display: block;
+
+    }
+    &:before {
+      background: blue;
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+
+    .content {
+      /*blog content*/
+      display: inline-block;
+      padding: 40px;
+      vertical-align: middle;
+      width: 49.3%;
+      &:last-child {
+        margin: 0 2px 0 -2px;
+      }
+      h6 {
+        /*blog header*/
+        margin-bottom: 0.5em;
+        margin-top: 1em;
+        text-transform: uppercase;
+      }
+      .breadcrumb {
+        padding: 0;
+        background: transparent !important;
+        font-size: 15px;
+      }
+      a {
+        /*read more link*/
+        border-bottom: 1px solid $body-color-dark;
+      }
+    }
+
+    .image {
+      /*blog image*/
+      display: inline-block;
+      height: 100%;
+      width: 50%;
+      overflow: hidden;
+      position: relative;
+      &:hover .image-overlay {
+        /*overlay effect*/
+        z-index: 2;
+      }
+      &:hover img {
+        /*image hover*/
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -o-transform: scale(1.05);
+      }
+      img {
+        /*blog image*/
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        transition: .5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+      }
+    }
+    .image-overlay {
+      /*blog image overlay*/
+      position: absolute;
+      background: $overlay;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+  }
+
+  .odd {
+    /*blog odd property*/
+    text-align: left;
+    .image {
+      float: left;
+      img {
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+
+  .even {
+    /*blog even property*/
+    text-align: right;
+    .image {
+      float: right;
+      img {
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+
+  @include phone_768 {
+    .blog {
+      /*blog class*/
+      display: block;
+      height: auto;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      .image {
+        /*image*/
+        height: 20em;
+        width: 100%;
+      }
+      .content {
+        /*blog content*/
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+
+

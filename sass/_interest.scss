@@ -1,0 +1,79 @@
+//===========================================================================//
+// INTEREST SECTION
+//===========================================================================//
+@import "variables";
+@import "mediamixins";
+/*interest section*/
+#interest {
+
+  .card {
+    /*interest card class*/
+    padding: 0;
+    .card-content {
+      /*interest cards content*/
+      border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+    }
+
+    .row.no-gutters {
+      /*row gutter remove*/
+      margin-right: 0;
+      margin-left: 0;
+
+      & > [class^="col-"],
+      & > [class*=" col-"] {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+
+    .box {
+      /*fixing the height for icons*/
+      height: 105px;
+
+      .interest-icon {
+        /*interest icon*/
+        display: block;
+        color: $white;
+        background: $primary-color;
+        height: 105px;
+
+        i {
+          /*icon*/
+          font-size: 2.2em;
+          margin-top: 29px;
+        }
+        span {
+          /*icon name*/
+          display: block;
+        }
+      }
+
+      .interest-icon-even {
+        /*interest icon even*/
+        display: block;
+        color: $primary-color;
+        height: 105px;
+        margin-right: -1px;
+
+        i {
+          /*icon*/
+          font-size: 2.2em;
+          margin-top: 29px;
+        }
+        span {
+          /*icon name*/
+          display: block;
+        }
+      }
+    }
+
+    @include screen_540-766 {
+      .box {
+        /*setting max width to screen range*/
+        max-width: 33.33333333%;
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,22 @@
+//===========================================================================//
+// SCROLL TO TOP
+//===========================================================================//
+@import "variables";
+/*scroll to top button*/
+#scrollup {
+  color: $white;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+  font-size: 28px;
+  background: $accent-color;
+  border: 1px solid $accent-color;
+  text-align: center;
+  position: fixed;
+  bottom: 21px;
+  right: 18px;
+  z-index: 1;
+  box-shadow: $box-shadow-light;
+  display: none;
+  transition: .3s;
+}

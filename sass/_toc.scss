@@ -1,0 +1,123 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+PROJECT:	FLATRICA | MATERIAL CV
+VERSION:	2.0
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+
+1. BODY
+
+    2.PRE-LOADER / #loading
+      2.1 NAME & STATUS / .text-holder
+       2.1.1 NAME / h2
+       2.1.2 STATUS / h6
+
+ 	3. HEADER / #home
+		3.1 NAVIGATION / #themenu
+		  3.1.1 MENU / #menu-options
+		    3.1.1.1 PERSONAL LOGO / .logo-flat
+		    3.1.1.2 OPTIONS / a
+		  3.1.2 MENU BUTTON / #menuToggle
+
+		3.2 V-CARD / #v-card-holder #v-card
+		  3.2.1 PROFILE PICTURE / #profile
+		  3.2.2 PROFILE DETAILS / .card-content
+		    3.2.2.1 NAME & STATUS / .info-headings
+		    3.2.2.2 CONTACT INFO / .infos
+		    3.2.2.3 LINKS / .links
+
+	4. ABOUT / #about
+		4.1 DETAILS/ #about-card
+		  4.1.1 ABOUT PARAGRAPH / .card-content p
+		  4.1.1 BUTTONS / #about-btn
+
+    5. EDUCATION / #education
+        5.1 SECTION TITLE/ .section-title
+		5.2 TIMELINE/ #timeline-education
+		  5.2.1 TIMELINE BLOCK / .timeline-block
+		    5.2.1 TIMELINE DOT / .timeline-dot
+		    5.2.2 TIMELINE CONTENT / .timeline-content
+		      5.2.2.1 TIMELINE TITLE / .timeline-title
+		      5.2.2.2 TIMELINE TITLE INFO / .timeline-info
+		      5.2.2.3 TIMELINE PARAGRAPH / p
+
+    6. SKILLS / #skills
+        6.1 SECTION TITLE/ .section-title
+		6.2 SKILL SECTION TITLE/ .skills-title
+		6.3.1 SKILL BAR / .skillbar
+		  6.3.1 BAR TITLE / .skillbar-title
+		  6.3.1 BAR / .skillbar-title
+		  6.3.1 PARENTAGE / .skill-bar-percent
+
+     7. EXPERIENCE / #experience
+        7.1 SECTION TITLE/ .section-title
+		7.2 TIMELINE / #timeline-experience
+		  7.2.1 TIMELINE BLOCK / .timeline-block
+		    7.2.1 TIMELINE DOT / .timeline-dot
+		    7.2.2 TIMELINE CONTENT / .timeline-content
+		      7.2.2.1 TIMELINE TITLE / .timeline-title
+		      7.2.2.2 TIMELINE TITLE INFO / .timeline-info
+		      7.2.2.3 TIMELINE PARAGRAPH / p
+
+	8. PORTFOLIOS / #portfolios
+	    8.1 SECTION TITLE/ .section-title
+		8.2 OPTIONS / .nav .nav-tabs
+		8.3 CATEGORIES CONTENT / .tab-content
+		  8.3.1 All CATEGORIES / #all
+		  8.3.2 CATEGORY 1 / #a
+		    8.3.2.1 FIGURE / figure .port-effect
+		      8.3.2.1.1 IMAGE / img
+		      8.3.2.1.2 CAPTION / figcaption
+		        8.3.2.1.2.1 HEADER / h2 span
+		        8.3.2.1.2.1 DETAIL / p
+		        8.3.2.1.2.1 LINK / a
+
+    9. INTEREST / #interest
+		9.1 SECTION TITLE/ .section-title
+		9.2 INTEREST / #interest-card
+		  9.2.1 INTEREST TEXT / .card-content p
+		  9.2.2 INTEREST ICONS / #interest-icon
+		    9.2.2.1 ICONS / .interest-icon i
+		    9.2.2.2 TITLE / .interest-icon span
+
+    10. TESTIMONIALS AND CLIENTS / #testimonials
+          10.1 SECTION TITLE/ .section-title
+          10.2 TESTIMONIALS / #testimonials-card
+            10.2.1 CLIENT IMAGE / .ben img
+            10.2.2 CLIENT QUOTE / .card blockquote
+          10.3 CLIENT LOGOS / #clients
+            10.3.1 LOGOS/ #clients-list img
+
+     11. PRICING TABLE / #pricing-table
+          10.1 SECTION TITLE/ .section-title
+          10.2 PRICING TABLES / #pricing-card
+            10.2.1 TOP / .pricing-top
+            10.2.2 DETAILS / .pricing-bottom
+            10.2.3 BUTTON / a
+
+     12. BLOG / #blog
+          12.1 SECTION TITLE/ .section-title
+          12.2 BLOG'S / #blog-card
+            12.2.1 BLOG ODD/ .blog .odd
+              12.2.1.1 IMAGE/ .image img
+              12.2.1.2 DETAILS .content
+            12.2.2 BLOG EVEN / .blog .odd
+              12.2.2.1 IMAGE/ .image img
+              12.2.2.2 DETAILS .content
+
+    13. CONTACT / #contact
+        13.1 SECTION TITLE/ .section-title
+        13.2 CONTACT FORM / #contact-form
+        13.2. MAP / #myMap
+
+     14. SCROLL TO TOP / #scroll-top
+        14.1 BUTTON / #scrollup
+
+     15. FOOTER / footer
+        14.1 DETAILS / p
+        14.2 LINK / a
+
+-------------------------------------------------------------------*/

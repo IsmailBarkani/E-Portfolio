@@ -1,0 +1,454 @@
+//===========================================================================//
+// HEADER SECTION
+//===========================================================================//
+@import "variables";
+@import "mediamixins";
+
+/*home section*/
+#home {
+
+  .menu {
+    /*side menu*/
+    position: fixed;
+    left: -225px;
+    width: 225px;
+    height: 100%;
+    top: 0;
+    z-index: 10;
+    text-align: left;
+    background: $menu-bg;
+    a {
+      /*menu links*/
+      margin-left: 30px;
+      margin-right: 30px;
+      color: $font-color-dark;
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      &:hover {
+        /*link option hover color*/
+        color: $accent-color;
+      }
+      &:active {
+        /*option active color*/
+        color: $accent-color;
+      }
+    }
+    i {
+      /*menu icon*/
+      padding: 7px;
+    }
+    .menu-wrap {
+      /*menu warp class*/
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: $body-color;
+      width: 225px;
+      height: 100%;
+      overflow-y: auto;
+      padding-top: 14px;
+    }
+    .logo-flat {
+      /*menu logo*/
+      height: 200px;
+      margin-top: -14px;
+      background: $menu-bg;
+      img {
+        /*logo image*/
+        width: 100%;
+        padding: 30px 44px 44px 44px;
+      }
+    }
+  }
+
+  .menu-open {
+    /*set left 0 to open menu*/
+    left: 0;
+  }
+
+  .body-push {
+    overflow-x: hidden;
+    position: relative;
+    right: 0;
+  }
+  .body-push-toright {
+    /*push to right*/
+    right: 225px;
+  }
+  .body-push-toleft {
+    /*push to left on click*/
+    right: 225px;
+  }
+  .menu, .body-push {
+    /*menu easing effect*/
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+
+  #menuToggle {
+    /*menu toggle style*/
+    position: absolute;
+    top: 20px;
+    right: -65px;
+    z-index: 11;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    border: 1px solid rgba(93, 92, 92, 0.52);
+    background: rgba(0, 0, 0, 0.06);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    &:hover {
+      /*toggle hover style*/
+      background: $overlay;
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+    }
+    .toggle-normal {
+      font-size: 31px;
+      i{
+        font-size: 31px;
+        padding: 4px !important;
+        color: $accent-color !important;
+      }
+      .top-bar {
+        position: absolute;
+        right: 0;
+        top: -6px;
+        transition: .8s;
+      }
+      .middle-bar {
+        position: absolute;
+        right: 0;
+        top: 0;
+        opacity: 1;
+        transition: .8s;
+      }
+      .bottom-bar {
+        position: absolute;
+        right: 0;
+        top: 6px;
+        transform: rotate(0deg);
+        transition: .8s;
+      }
+    }
+    .top-transform {
+      transform: rotate(45deg) !important;
+      transform-origin: 34% 56%;
+    }
+    .middle-transform {
+      opacity: 0 !important;
+    }
+    .bottom-transform {
+      transform: rotate(-45deg) !important;
+      transform-origin: 28% 43%;
+    }
+  }
+
+  .header-background {
+    /*home background*/
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 370px;
+    background: url("../images/background.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    #v-card-holder {
+      /*card holder*/
+      position: absolute;
+      overflow: visible;
+      width: 100%;
+      height: auto;
+      top: 171px;
+
+      #v-card {
+        /*v-card with fixed 400px height*/
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        z-index: 1;
+        background: $v-card-bg;
+        margin: -20px 3px 0 0;
+
+        .info-headings {
+          /*basic infos*/
+          max-width: 514px;
+          h4 {
+            /*name*/
+            display: block;
+            width: 100%;
+            font-weight: $font-weight-ultra-bold;
+            color: $text-icon-color;
+            text-shadow: $text-shadow;
+          }
+          h6 {
+            /*details*/
+            display: block;
+            width: 100%;
+            font-weight: $font-weight-light;
+            margin-top: -10px;
+            margin-bottom: 30px;
+            font-size: 1.2em;
+            color: $text-icon-color;
+            text-shadow: $text-shadow;
+          }
+        }
+        .infos {
+          /*detailed infos*/
+          max-width: 515px;
+          margin-top: 99px;
+          .profile-list {
+            /*list*/
+            .title {
+              /*info title*/
+              display: block;
+              float: left;
+              color: $text-icon-color;
+              line-height: 26px;
+              i {
+                /*matching icon*/
+                font-size: 23px;
+              }
+              .fa {
+                /*for font awesome*/
+                padding-left: 2px;
+              }
+            }
+            .content {
+              /*infos content*/
+              display: block;
+              margin-left: 30px;
+              font-size: 15px;
+              font-weight: 400;
+              line-height: 20px;
+              color: $text-icon-color;
+            }
+          }
+        }
+
+        .links {
+          /*social links*/
+          max-width: 500px;
+          margin-left: -12px;
+          margin-top: 12px;
+          height: 100%;
+          .social {
+            /*class*/
+            margin-left: 12px;
+            margin-bottom: 4px;
+            i {
+              /*icon*/
+              font-size: 15px;
+              vertical-align: middle;
+              padding-bottom: 15px;
+            }
+          }
+          @include screen_400 {
+            .social {
+              /*making links responsive*/
+              margin-left: 5px;
+            }
+          }
+        }
+
+        @include screen_990 {
+          .infos {
+            /*max width for infos*/
+            max-width: 278px;
+          }
+          .links {
+            /*max width for links*/
+            max-width: 325px;
+          }
+          .info-headings {
+            /*max width for headings*/
+            max-width: 270px;
+          }
+        }
+
+        #profile {
+          /*profile area*/
+          position: absolute;
+          right: 0;
+          z-index: 1;
+
+          img {
+            /*user image for 400x400px image*/
+            width: 400px;
+            height: auto;
+          }
+
+          .slant {
+            /*slant*/
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            border-style: dashed;
+            border-width: 400px 0 0 100px;
+            border-color: transparent transparent transparent $slant-bg;
+          }
+          @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+            .slant {
+              /*slant properties for ie*/
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              border-style: solid;
+              border-width: 400px 0 0 100px;
+              border-color: transparent transparent transparent $slant-bg;
+            }
+          }
+
+          @-moz-document url-prefix() {
+            .slant {
+              /*for firefox*/
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              border-style: solid;
+              border-width: 400px 0 0 100px;
+              border-color: transparent transparent transparent $slant-bg;
+            }
+          }
+
+          @supports (-ms-accelerator:true) {
+            .slant {
+              /*for edge*/
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              border-style: solid;
+              border-width: 400px 0 0 100px;
+              border-color: transparent transparent transparent $slant-bg;
+            }
+          }
+          .add-btn {
+            /*plus button*/
+            position: absolute;
+            background-color: $accent-color;
+            top: 20%;
+            right: 86%;
+            overflow: hidden;
+            i {
+              /*icon*/
+              font-size: 35px;
+              color: $white;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  @include screen_767 {
+    /*at max width 767*/
+    .header-background #v-card-holder #v-card {
+      /*v-card at max width 767*/
+      position: relative;
+      width: 100%;
+      height: auto;
+      overflow: visible;
+      z-index: 1;
+      top: 34px;
+      #profile {
+        /*profile v-card at max width 767*/
+        position: absolute;
+        bottom: 85%;
+        left: 0;
+        width: 150px;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        z-index: 1;
+        background-color: transparent;
+        img {
+          /*image at max width 767*/
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          box-shadow: $box-shadow;
+        }
+        .slant {
+          /*hide slant*/
+          display: none;
+          opacity: 0;
+          overflow: hidden;
+        }
+        .add-btn {
+          /*hide add button*/
+          display: none;
+          opacity: 0;
+          overflow: hidden;
+        }
+
+      }
+      .social {
+        /*links styles at max width 767*/
+        top: 0;
+        margin-left: 5px;
+        margin-bottom: 4px;
+      }
+    }
+
+    .header-background #v-card-holder #v-card {
+      .infos {
+        /*infos at max width 767*/
+        display: table;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0;
+      }
+
+      .links {
+        /*links at max width 767*/
+        display: table;
+        max-width: 100%;
+        padding: 0;
+        margin: 0 auto 9px;
+        #first_one {
+          /*first link at max width 767*/
+          margin-left: 0;
+        }
+      }
+
+      .info-headings {
+        /*heading at max width 767*/
+        max-width: 100%;
+        text-align: center;
+        margin-top: 38px;
+
+        h6 {
+          margin-bottom: 20px;
+        }
+      }
+      .card-content {
+        /*content padding*/
+        padding: 10px;
+      }
+    }
+  }
+}

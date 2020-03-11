@@ -1,0 +1,45 @@
+///*=======================================*/
+///*        MIXINS FOR SCREEN SIZES        */
+///*=======================================*/
+@mixin phone_480 {
+  @media screen and (max-width: 480px) {
+    @content
+  }
+}
+
+@mixin phone_768 {
+  @media screen and (max-width: 768px) {
+    @content
+  }
+}
+
+@mixin screen_400 {
+  @media screen and (max-width: 400px) {
+    @content
+  }
+}
+
+@mixin screen_990 {
+  @media screen and (max-width: 990px) {
+    @content
+  }
+}
+
+
+@mixin screen_767 {
+  @media screen and (max-width: 767px) {
+    @content
+  }
+}
+
+@mixin screen_540-766 {
+  @media screen and (min-width: 540px) and (max-width: 766px) {
+    @content
+  }
+}
+
+@mixin screen_min_width_768 {
+  @media only screen and (min-width: 768px) {
+    @content
+  }
+}

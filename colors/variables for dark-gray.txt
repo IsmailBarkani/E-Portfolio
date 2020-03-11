@@ -1,0 +1,66 @@
+///*=======================================*/
+///*          ALL SASS VARIABLES           */
+///*=======================================*/
+
+///*========================================================================*/
+///*                      PRIMARY AND ACCENT COLORS                         */
+///*    SIX PROVIDED COLORS CAN BE FOUND ON FOLDER COLORS/COLORS.TXT        */
+///*========================================================================*/
+$primary-color: #06A763;
+$accent-color: #06A763;
+
+
+$primary-color-light: lighten($primary-color, 7%);
+$primary-color-dark: darken($primary-color, 12%);
+
+$accent-color-light: lighten($accent-color, 7%);
+$accent-color-dark: darken($accent-color, 12%);
+$body-color: #f5f5f5;
+$body-color-dark: darken($body-color, 10%);
+$white: $body-color;
+
+
+///*=======================================*/
+///*                 TYPO                  */
+///*=======================================*/
+$font-color-light: #FFFFFF;
+$font-color-dark: #616161;
+$p-color: #757575;
+$font-weight-thin: 100;
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-ultra-bold: 900;
+
+
+///*=======================================*/
+///*               SHADOWS                 */
+///*=======================================*/
+$navigation-box-shadow: 0px 0px 3px 1px #000;
+$box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+$box-shadow-light: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+$box-shadow-hover: 0 20px 30px 0 rgba(0, 0, 0, 0.16), 0 10px 15px 0 rgba(0, 0, 0, 0.12);
+$text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+
+
+///*=======================================*/
+///*           V-CARD COLORS               */
+///*=======================================*/
+$slant-bg : $body-color;
+$v-card-bg : $body-color;
+$text-icon-color : $font-color-dark;
+
+
+///*=======================================*/
+///*       EXTRA COLORS AND OVERLAY        */
+///*=======================================*/
+$overlay: rgba(0, 0, 0, .3);
+$port_overlay: rgba(0, 0, 0, .7);
+$port_h2: rgba(72, 76, 97, 0.22);
+$menu-bg : $primary-color;
+$port-p : $white;
+$box-inner : $body-color;

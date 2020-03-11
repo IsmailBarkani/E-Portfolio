@@ -1,0 +1,35 @@
+//===========================================================================//
+// ABOUT SECTION
+//===========================================================================//
+@import "variables";
+/*about section*/
+#about {
+  /*profile about*/
+  margin-top: 200px;
+
+  .about-btn {
+    /*about buttons*/
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    animation-delay: 1s;
+    text-align: center;
+    .btn {
+      /*button style*/
+      margin: 7px 7px;
+      background: $primary-color;
+      color: #ffffff;
+      width: 180px;
+      border-radius: 2px;
+      &:hover {
+       /*hover effect*/
+        background: $primary-color-dark;
+      }
+    }
+  }
+}
+
+
+
+
+

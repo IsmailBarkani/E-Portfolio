@@ -1,0 +1,108 @@
+//===========================================================================//
+// TESTIMONIALS SECTION
+//===========================================================================//
+@import "variables";
+/*testimonials section*/
+#testimonials {
+  .carousel{
+    cursor: w-resize;
+  }
+  .carousel-indicators{
+    li{
+      border: 2px solid $accent-color;
+    }
+    .active{
+      background-color: $accent-color;
+    }
+  }
+  .item{
+    padding-top: 25px;
+  }
+  .ben {
+    /*image class*/
+    margin-bottom: -50px;
+    margin-top: -5px;
+    position: inherit;
+    z-index: 2;
+    img {
+      /*clint image*/
+      height: 130px;
+      width: 130px;
+      border-radius: 50%;
+    }
+  }
+
+
+  blockquote {
+    /*quote*/
+    padding-top: 66px;
+    text-align: center;
+    padding-bottom: 39px;
+    font-size: 15px;
+    border-left: none;
+    &::before {
+      /*quote sign*/
+      content: "\201C";
+      font-family: Georgia, serif;
+      font-weight: bold;
+      color: $accent-color;
+      font-size: 2em;
+      line-height: .1em;
+      margin-right: 0;
+      vertical-align: -0.3em;
+    }
+  }
+
+  blockquote cite {
+    display: block;
+    margin: 15px 0 0 0;
+    font-style: normal;
+  }
+
+
+  #clients {
+    /*clients logo slider*/
+    margin-top: 14px;
+    display: block;
+    .clients-wrap {
+      /*warp class*/
+      display: block;
+      overflow: hidden;
+      padding: 10px 0 0;
+      margin-top: -12px;
+      ul {
+        display: block;
+        list-style: none;
+        position: relative;
+        li {
+          /*logo list*/
+          display: block;
+          float: left;
+          position: relative;
+          width: 140px;
+          height: 55px;
+          line-height: 55px;
+          text-align: center;
+          img {
+            /*client logos*/
+            vertical-align: middle;
+            max-width: 100%;
+            max-height: 100%;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+            filter: alpha(opacity=65);
+            opacity: 0.65;
+          }
+          img:hover {
+            /*logo hover effect*/
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            filter: alpha(opacity=100);
+            opacity: 1.0;
+          }
+        }
+      }
+    }
+  }
+}

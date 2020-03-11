@@ -1,0 +1,36 @@
+/*colors*/
+
+/*white*/
+card, timeline background: #fff;
+
+/*green*/
+$primary-color: #06A763;
+$accent-color: #1976D2;
+
+/*blue*/
+$primary-color: #1F5694;
+$accent-color: #ff5722;
+
+/*purple*/
+$primary-color: #5F1A89;
+$accent-color: #E61F63;
+
+/*gray*/
+$primary-color: #616161;
+$accent-color: #F44336;
+
+/*teal*/
+$primary-color: #038175;
+$accent-color: #9C27B0;
+
+/*pink*/
+$primary-color: #D81B60;
+$accent-color: #9C27B0;
+
+/*red*/
+$primary-color: #E73A2E;
+$accent-color: #FF8F00;
+
+/*brown*/
+$primary-color: #5D4037;
+$accent-color: #3F51B5;
