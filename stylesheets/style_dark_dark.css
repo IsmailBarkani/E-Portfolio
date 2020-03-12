@@ -142,7 +142,7 @@ html, body {
     display: block;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    background-color: #33373a;
+    background-color: #282b2e;
     color: #7b7b7b;
     -webkit-font-smoothing: subpixel-antialiased;
     -webkit-text-stroke: 1px transparent;
@@ -243,7 +243,7 @@ html .btn, body .btn {
 .card {
     /*card layout*/
     position: relative;
-    background-color: #33373a;
+    background-color: #282b2e;
     transition: box-shadow .25s;
     border-radius: 2px;
     margin: 8px 0; }
@@ -264,7 +264,7 @@ html .btn, body .btn {
 */
 .modal-content {
     border-radius: 0 !important;
-    background-color: #33373a;
+    background-color: #282b2e;
     color: #7b7b7b; }
 .modal-content .modal-body {
     position: relative;
@@ -280,7 +280,7 @@ html .btn, body .btn {
     background-color: #06A763;
     border-color: #06A763; }
 .modal-content .btn-default:hover, .modal-content .btn-default:focus {
-    color: #33373a;
+    color: #282b2e;
     background-color: #06A763;
     border-color: #06A763;
     border-radius: 0; }
@@ -317,7 +317,7 @@ html .btn, body .btn {
     /*pre-loader text*/
     width: 100%;
     position: absolute;
-    color: #33373a;
+    color: #282b2e;
     top: 62%; }
 #loading .text-holder h2 {
     /*name*/
@@ -341,7 +341,7 @@ html .btn, body .btn {
     width: 30px;
     height: 30px;
     position: relative;
-    border: 4px solid #33373a;
+    border: 4px solid #282b2e;
     top: 50%;
     animation: loader 2s infinite ease;
     -webkit-animation: loader 2s infinite ease;
@@ -351,7 +351,7 @@ html .btn, body .btn {
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: #33373a;
+    background-color: #282b2e;
     animation: loader-inner 2s infinite ease-in;
     -webkit-animation: loader-inner 2s infinite ease-in; }
 @-webkit-keyframes loader {
@@ -453,7 +453,7 @@ html .btn, body .btn {
     position: absolute;
     top: 0;
     left: 0;
-    background: #33373a;
+    background: #282b2e;
     width: 225px;
     height: 100%;
     overflow-y: auto;
@@ -550,7 +550,7 @@ html .btn, body .btn {
     display: block;
     width: 100%;
     height: 370px;
-    background: url("../images/background.png") no-repeat;
+    background: url("../images/2.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; }
@@ -568,7 +568,7 @@ html .btn, body .btn {
     height: 400px;
     overflow: hidden;
     z-index: 1;
-    background: #33373a;
+    background: #272a2c;
     margin: -20px 3px 0 0; }
 #home .header-background #v-card-holder #v-card .info-headings {
     /*basic infos*/
@@ -662,7 +662,7 @@ html .btn, body .btn {
     top: 0;
     border-style: dashed;
     border-width: 400px 0 0 100px;
-    border-color: transparent transparent transparent #33373a; }
+    border-color: transparent transparent transparent #282b2e; }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     #home .header-background #v-card-holder #v-card #profile .slant {
         /*slant properties for ie*/
@@ -672,7 +672,7 @@ html .btn, body .btn {
         top: 0;
         border-style: solid;
         border-width: 400px 0 0 100px;
-        border-color: transparent transparent transparent #33373a; } }
+        border-color: transparent transparent transparent #282b2e; } }
 @-moz-document url-prefix() {
     #home .header-background #v-card-holder #v-card #profile .slant {
         /*for firefox*/
@@ -682,7 +682,7 @@ html .btn, body .btn {
         top: 0;
         border-style: solid;
         border-width: 400px 0 0 100px;
-        border-color: transparent transparent transparent #33373a; } }
+        border-color: transparent transparent transparent #282b2e; } }
 @supports (-ms-accelerator: true) {
     #home .header-background #v-card-holder #v-card #profile .slant {
         /*for edge*/
@@ -692,7 +692,7 @@ html .btn, body .btn {
         top: 0;
         border-style: solid;
         border-width: 400px 0 0 100px;
-        border-color: transparent transparent transparent #33373a; } }
+        border-color: transparent transparent transparent #282b2e; } }
 #home .header-background #v-card-holder #v-card #profile .add-btn {
     /*plus button*/
     position: absolute;
@@ -703,7 +703,7 @@ html .btn, body .btn {
 #home .header-background #v-card-holder #v-card #profile .add-btn i {
     /*icon*/
     font-size: 35px;
-    color: #33373a; }
+    color: #282b2e; }
 @media screen and (max-width: 767px) {
     #home {
         /*at max width 767*/ }
@@ -813,7 +813,7 @@ html .btn, body .btn {
     content: '';
     position: absolute;
     top: 0;
-    bottom: 23px;
+    bottom: 43px;
     left: 50%;
     height: 99.5%;
     width: 4px;
@@ -867,7 +867,7 @@ html .btn, body .btn {
     border-radius: 100%;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     z-index: 2;
-    color: #33373a;
+    color: #282b2e;
     text-align: center;
     position: absolute;
     top: 5px;
@@ -888,7 +888,7 @@ html .btn, body .btn {
 .timeline-block .timeline-content {
     /*each timeline content*/
     position: relative;
-    background: #33373a;
+    background: #282b2e;
     margin-right: 0;
     z-index: 1;
     margin-bottom: 5px;
@@ -988,7 +988,7 @@ html .btn, body .btn {
     margin: 15px 0; }
 #skills .card .skills-title h6 {
     /*title style*/
-    color: #33373a;
+    color: #282b2e;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29); }
 #skills .card .skillbar {
     /*whole bar*/
@@ -1022,12 +1022,12 @@ html .btn, body .btn {
     padding: 3px 0;
     margin-top: -25px;
     line-height: 15px;
-    color: #33373a; }
+    color: #282b2e; }
 #skills .card .skillbar .skillbar-bar {
     /*skill bar*/
     height: 4px;
     width: 0;
-    background: #33373a;
+    background: #282b2e;
     overflow: hidden; }
 #skills .card .skillbar .skill-bar-percent {
     /*skill percentage text*/
@@ -1036,7 +1036,7 @@ html .btn, body .btn {
     top: -20px;
     font-size: .8em;
     line-height: 15px;
-    color: #33373a; }
+    color: #282b2e; }
 
 /*
 -------------------------------------------------------------------------------
@@ -1116,7 +1116,7 @@ html .btn, body .btn {
 #portfolios #portfolios-card .tab-content .grid figure figcaption {
     /*image caption*/
     padding: 2em;
-    color: #33373a;
+    color: #282b2e;
     text-transform: uppercase;
     font-size: 1.25em;
     -webkit-backface-visibility: hidden;
@@ -1200,7 +1200,7 @@ html .btn, body .btn {
     transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0); }
 #portfolios .btn-large {
     color: #06A763 !important;
-    background: #33373a !important;
+    background: #282b2e !important;
     margin-bottom: 10px !important; }
 @keyframes InLeft {
     /*keyframe for slide in left*/
@@ -1280,7 +1280,7 @@ html .btn, body .btn {
 #interest .card .box .interest-icon {
     /*interest icon*/
     display: block;
-    color: #33373a;
+    color: #282b2e;
     background: #06A763;
     height: 105px; }
 #interest .card .box .interest-icon i {
@@ -1419,14 +1419,14 @@ html .btn, body .btn {
     /*pricing details*/
     width: 100%;
     background: #06A763;
-    color: #33373a;
+    color: #282b2e;
     padding: 30px 0 40px 0;
     text-align: center; }
 #pricing-table .card .pricing-top p {
     /*pricing headings*/
     margin-bottom: 40px;
     font-size: 20px;
-    color: #33373a; }
+    color: #282b2e; }
 #pricing-table .card .pricing-top p em {
     font-size: 54px;
     font-style: normal; }
@@ -1435,7 +1435,7 @@ html .btn, body .btn {
 #pricing-table .card .pricing-top span {
     font-size: 14px;
     text-transform: uppercase;
-    border: 2px solid #33373a;
+    border: 2px solid #282b2e;
     padding: 5px 10px; }
 #pricing-table .card .pricing-bottom {
     /*pricing bottom*/
@@ -1450,7 +1450,7 @@ html .btn, body .btn {
     /*purchase button*/
     background: #06A763;
     margin-bottom: 5px;
-    color: #33373a;
+    color: #282b2e;
     border-radius: 2px; }
 #pricing-table .card .btn:hover {
     /*button hover effect*/
@@ -1584,7 +1584,7 @@ html .btn, body .btn {
     /*send button*/
     background-color: #06A763;
     width: 115px;
-    color: #33373a;
+    color: #282b2e;
     border-radius: 2px;
     margin-top: 7px; }
 #contact .card .card-content .btn:hover {
@@ -1602,7 +1602,7 @@ html .btn, body .btn {
     border-radius: 0;
     margin: -4px 0 0; }
 #contact .card .indeterminate {
-    background-color: #33373a; }
+    background-color: #282b2e; }
 #contact #myMap {
     /*google map*/
     width: 100%;
@@ -1666,7 +1666,7 @@ html .btn, body .btn {
 */
 /*scroll to top button*/
 #scrollup {
-    color: #33373a;
+    color: #282b2e;
     height: 45px;
     width: 45px;
     cursor: pointer;
@@ -1691,7 +1691,7 @@ html .btn, body .btn {
 footer {
     width: 100%;
     height: auto;
-    color: #33373a;
+    color: #282b2e;
     margin-top: -18px;
     margin-bottom: 9px; }
 
