@@ -1,0 +1,216 @@
+\PassOptionsToPackage{table}{xcolor}
+\documentclass[a4paper, 12pt,french,oneside]{book}%
+\usepackage[left=2.6cm,right=1.8cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{minitoc}
+\usepackage{lettrine}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{glossaries-extra}
+\usepackage{glossary-longbooktabs}
+\usepackage{glossaries-extra-stylemods}
+\usepackage{systeme,mathtools}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{babel}
+\usepackage{fourier, erewhon, cabin}
+\usepackage{microtype}
+\usepackage{float}
+\usepackage{array,multirow}
+\usepackage{physics}
+\usepackage{subfig}
+\usepackage[pagestyles, clearempty, explicit]{titlesec}
+\usepackage{eqparbox}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{booktabs,siunitx}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{eso-pic}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{wrapfig}
+\usepackage{engrec}
+\usepackage{relsize}
+\usepackage{microtype}
+\usepackage[most]{tcolorbox}
+\usepackage[toc,page]{appendix}
+\usepackage{epigraph}
+\usepackage{times}
+\usepackage{tikz}
+\usepackage[pages=some]{background}
+\usepackage{epigraph}
+\pagestyle{fancy}
+\setcounter{tocdepth}{3}
+
+
+\doparttoc
+\fancyhf{}
+\fancyhead[CE,CO]{\leftmark}
+\fancyhead[LE,RO]{\thepage}
+\renewcommand{\headrulewidth}{1pt}
+\addto\captionsfrench{\def\tablename{Tableau}}
+\definecolor{lightgray}{gray}{0.95}
+\setlength{\arrayrulewidth}{0.5mm}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.5}
+\renewcommand{\baselinestretch}{1.46}
+\renewcommand{\appendixpagename}{Annexes}
+\renewcommand{\appendixtocname}{Annexes}
+\renewcommand{\bibliography}{Referances}
+\renewcommand{\thesubsubsection}{\alph{subsubsection}}
+\titleformat{\chapter}[block]{}{\eqmakebox[chap]{\Large\MakeUppercase{\sffamily\lsstyle\chaptername} %
+		\raisebox{-0.6\height}{\fontsize{50pt}{50pt}\selectfont\thechapter}\quad}}%
+{0pt}{\huge\bfseries\raisebox{1ex}{\parbox[t]{\dimexpr\textwidth-\eqboxwidth{chap}\relax}{\titlerule[2pt]\vspace{1.25ex}#1}}}
+\titlespacing*{\chapter}{0pt}{-32pt}{48pt}%
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\theoremstyle{definition}
+\newtheorem{definition}{Définition}[chapter]
+\theoremstyle{remark}
+\newtheorem{remark}{\textbf{Remarque}}[chapter]
+\usepackage{times}
+\addto\captionsfrench{\renewcommand{\chaptername}{partie}}
+\setlength{\textfloatsep}{2pt} 
+\setlength{\abovecaptionskip}{2pt}
+\setlength{\belowcaptionskip}{2pt}
+\setlength{\floatsep}{2pt}
+\setlength{\dblfloatsep}{2pt}
+\setlength{\dbltextfloatsep}{2pt} 
+\setlength{\leftmargini}{8pt}
+\setlength{\leftmarginii}{8pt}
+\setlength{\columnsep}{9pt}
+\setlength{\parskip}{0pt plus0pt minus1pt}
+\setlength\epigraphrule{1pt}
+\setlength\epigraphwidth{.5\textwidth}
+\renewcommand\epigraphflush{flushleft}
+\renewcommand\epigraphsize{\normalsize}
+\setlength\epigraphwidth{0.7\textwidth}
+\definecolor{ch}{rgb}{255,255,255}
+\definecolor{A}{rgb}{0.25, 0.29, 0.3}
+\definecolor{C}{cmyk}{10,0,0,0}
+\definecolor{M}{rgb}{0.9, 0.9, 0.98}
+\definecolor{N}{rgb}{0.8, 0.8, 1.0}
+\DeclareFixedFont{\titlefont}{T1}{ppl}{b}{it}{0.5in}
+\newcommand\titlepagedecoration[1]{%
+	\begin{tikzpicture}[remember picture,overlay,shorten >= -10pt]
+	\coordinate (tp1) at ([yshift=2cm]current page.west);
+	\coordinate (tp2) at ([yshift=2cm,xshift=17.38cm]current page.west);
+	\coordinate (tp3) at ([yshift=-90pt,xshift=6.95cm]current page.north);
+	\coordinate (tp4) at ([yshift=-90pt]current page.north west);
+	
+	\filldraw[draw=ch,fill=ch] (tp1)--(tp2)--(tp3)--(tp4)--cycle;
+	\filldraw[draw=ch!30!white,opacity=0] ([xshift=-5cm]tp1)--([xshift=-1cm]tp2)--([xshift=-1cm]tp3)--([xshift=-5cm]tp4)--cycle;
+	\node[right] at ([xshift=1cm,yshift=-8cm]current page.north west) {\parbox{\textwidth}{\color{white}#1}};
+	\end{tikzpicture}%
+}
+\usepackage{tikz}
+\definecolor{doc}{RGB}{0,60,110}
+\usepackage{titletoc}
+\contentsmargin{0cm}
+
+
+
+%\titlecontents{section}[2.4pc]
+%{\addvspace{1pt}}
+%{\contentslabel[\thecontentslabel]{2pc}}
+%{}
+%{\hfill\small \thecontentspage}
+%[]
+%\titlecontents{subsection}[4pc]
+%{\addvspace{1pt}}
+%{\contentslabel[\thecontentslabel]{2.4pc}}
+%{}
+%{\hfill\small \thecontentspage}
+%[]
+%\titlecontents{subsubsection}[6pc]
+%{\addvspace{1pt}}
+%{\contentslabel[\thecontentslabel]{1.5pc}}
+%{}
+%{\hfill\small \thecontentspage}
+%[]
+
+
+
+\makeatletter
+
+\makeatother
+%%Background%%%%%%%%%%%%%%%%%%%%
+\backgroundsetup{
+	scale=1,
+	color=black,
+	opacity=1,
+	angle=0,
+	contents={%
+	%	\includegraphics[width=\paperwidth,height=\paperheight]{image/page}
+	}%
+}
+\dominitoc
+
+\begin{document}
+	\thispagestyle{empty}
+\begin{titlepage}
+	\begin{center}
+		\bfseries
+		\begin{minipage}{0.2\linewidth}
+			\raggedright
+			\includegraphics[scale=.11]{image/ensias}%
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.2\linewidth}
+			\raggedleft
+			\includegraphics[scale=.5]{image/um5}%
+		\end{minipage}
+		\vskip.3in
+		\rule{\textwidth}{1.5pt}
+		\vskip-.04in
+		\textsc{\Large Université Mohammed V Rabat}
+		\vskip.05in
+		\textsc{\large École nationale supérieure d'informatique et d'analyse des systèmes}
+		\vskip.01in
+		\vskip-.2in
+		\rule{\textwidth}{1.5pt}
+		\vskip0.6in
+		\Large Rapport de TP3
+		\vskip0.02in
+		\large Génie logiciel
+		\vskip0.1in
+		\rule{\textwidth}{4pt}
+		\vskip-0.27in
+		\rule{\textwidth}{1.5pt}
+		\vskip-0.03in
+		\vskip0.02in
+		\Huge Administration de base de données Oracle
+		\vskip-0.19in
+		\rule{\textwidth}{1.5pt}
+		\vskip-0.44in
+		\rule{\textwidth}{4pt}
+		\vskip0.2in
+		\emph{\Large Responsable de module  MME BOUCHRA EL ASRI \\
+					 Encadré par M. HATIM GUERMAH  }
+	\end{center}
+	\vskip0.5in
+	
+	\begin{minipage}{.5\textwidth}
+		\begin{flushleft}
+			\bfseries \textcolor{MidnightBlue}{\large Réalisé par :}\par \emph{Ismail BARKANI}
+		\end{flushleft}
+	\end{minipage}
+\hskip.1\textwidth
+
+	\vskip1in
+	\centering
+	\bfseries
+\end{titlepage}
+\restoregeometry 
+
+\restoregeometry
+\dominitoc% Initialization
+\setcounter{tocdepth}{7}
+\tableofcontents
+\thispagestyle{empty}
+
+
+
+\end{document}\\
+	
