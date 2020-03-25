@@ -8,4 +8,14 @@
 \contentsline {section}{\numberline {1.6}Formations privilégiées}{3}%
 \contentsline {section}{\numberline {1.7}Les compétences du développeur full-stack}{3}%
 \contentsline {section}{\numberline {1.8}Les connaisances du développeur full-stack}{3}%
+\contentsline {chapter}{\numberline {2}Fiche d'entreprise}{5}%
+\contentsline {section}{\numberline {2.1}bref présentation}{5}%
+\contentsline {section}{\numberline {2.2}présentation}{6}%
+\contentsline {subsection}{\numberline {2.2.1}Raison sociale}{6}%
+\contentsline {section}{\numberline {2.3}Siège social}{6}%
+\contentsline {section}{\numberline {2.4}Statu}{6}%
+\contentsline {section}{\numberline {2.5}Objet, activité(s)}{6}%
+\contentsline {section}{\numberline {2.6}Effectifs }{6}%
+\contentsline {section}{\numberline {2.7}Volume d’activité}{6}%
+\contentsline {section}{\numberline {2.8}Données quantitatives ou qualitatives}{6}%
 \contentsfinish 

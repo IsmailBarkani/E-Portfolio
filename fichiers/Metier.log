@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.20)  25 MAR 2020 01:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.20)  25 MAR 2020 20:42
 entering extended mode
 **./Metier.tex
 (Metier.tex
@@ -1594,6 +1594,25 @@ t 3}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
 umberline {1.8}Les connaisances du développeur full-stack}{\reset@font\ptcSfon
 t 3}}
+{\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \n
+umberline {2}Fiche d'entreprise}{\reset@font\ptcCfont 5}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2.1}bref présentation}{\reset@font\ptcSfont 5}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {2.1.1}Raison sociale}{\reset@font\ptcSSfont 6}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2.2}Siège social}{\reset@font\ptcSfont 6}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2.3}Statu}{\reset@font\ptcSfont 6}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2.4}Objet, activité(s)}{\reset@font\ptcSfont 6}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2.5}Effectifs }{\reset@font\ptcSfont 6}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2.6}Volume d’activité}{\reset@font\ptcSfont 6}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2.7}Données quantitatives ou qualitatives}{\reset@font\ptcSfont 6}}
+
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 49.
@@ -1618,6 +1637,10 @@ Package minitoc Info: I0024
 Package minitoc Info: I0033
 (minitoc)             Writing Metier.mtc1.
 \openout3 = `Metier.mtc1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Metier.mtc2.
+\openout3 = `Metier.mtc2'.
 
  (Metier.aux)
 \openout1 = `Metier.aux'.
@@ -1896,6 +1919,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing Metier.mtc1.
 \openout3 = `Metier.mtc1'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing Metier.mtc2.
+\openout3 = `Metier.mtc2'.
+
 LaTeX Font Info:    Font shape `T1/erewhon-TLF/m/n' will be
 (Font)              scaled to size 24.88pt on input line 207.
  (Metier.toc
@@ -1936,6 +1963,46 @@ Overfull \hbox (5.976pt too wide) detected at line 9
 
 Overfull \hbox (5.976pt too wide) detected at line 10
  []\T1/erewhon-TLF/m/n/12 3
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 12
+ []\T1/erewhon-TLF/m/n/12 5
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 13
+ []\T1/erewhon-TLF/m/n/12 6
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 14
+ []\T1/erewhon-TLF/m/n/12 6
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 15
+ []\T1/erewhon-TLF/m/n/12 6
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 16
+ []\T1/erewhon-TLF/m/n/12 6
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 17
+ []\T1/erewhon-TLF/m/n/12 6
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 18
+ []\T1/erewhon-TLF/m/n/12 6
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 19
+ []\T1/erewhon-TLF/m/n/12 6
  []
 
 )
@@ -1991,6 +2058,47 @@ LaTeX Font Info:    Font shape `T1/erewhon-TLF/b/n' will be
  [2
 
 ]
+Overfull \hbox (3.11304pt too wide) in paragraph at lines 239--243
+\T1/erewhon-TLF/b/n/12 Back-End : \T1/erewhon-TLF/m/n/12 (-20) JEE (ses-fram-wo
+rks : Spring, Jsf, Scruts...), No-dejs, py-thon (et ses-fram-works : Django...)
+,
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[3] [4]
+partie 2.
+<image/cap.jpg, id=66, 1204.5pt x 963.6pt>
+File: image/cap.jpg Graphic file (type jpg)
+<use image/cap.jpg>
+Package pdftex.def Info: image/cap.jpg  used on input line 246.
+(pdftex.def)             Requested size: 240.89574pt x 192.71658pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 244--248
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--248
+
+ []
+
+LaTeX Font Info:    Font shape `T1/erewhon-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 255.
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--262
+
+ []
+
+[5
+
+ <./image/cap.jpg>]
+LaTeX Font Info:    Font shape `T1/erewhon-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 266.
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Metier.maf file.
@@ -2022,44 +2130,28 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Metier.log file.
 
-
-Overfull \hbox (3.11304pt too wide) in paragraph at lines 239--243
-\T1/erewhon-TLF/b/n/12 Back-End : \T1/erewhon-TLF/m/n/12 (-20) JEE (ses-fram-wo
-rks : Spring, Jsf, Scruts...), No-dejs, py-thon (et ses-fram-works : Django...)
-,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--243
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[3] [4] (Metier.aux) ) 
+[6] (Metier.aux) ) 
 Here is how much of TeX's memory you used:
- 38565 strings out of 480934
- 751869 string characters out of 2909691
- 1180486 words of memory out of 3000000
- 53394 multiletter control sequences out of 15000+200000
- 614028 words of font info for 125 fonts, out of 3000000 for 9000
+ 38606 strings out of 480934
+ 752724 string characters out of 2909691
+ 1180487 words of memory out of 3000000
+ 53412 multiletter control sequences out of 15000+200000
+ 620577 words of font info for 138 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,11n,103p,1042b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/erewhon/zut1_iwqvab.enc}{C:/Progra
-m Files/MiKTeX 2.9/fonts/enc/dvips/erewhon/zut1_tzgz6e.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/erewhon/Erewhon-Bold.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/erewhon/Erewhon-BoldItalic.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/erewhon/Erewhon-Regular.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/urw/helvetic/uhvr8a.pfb>
-Output written on Metier.pdf (5 pages, 196464 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/erewhon/zut1_iwq
+vab.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Fi
+les/MiKTeX 2.9/fonts/enc/dvips/erewhon/zut1_tzgz6e.enc}<C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/erewhon/Erewhon-Bold.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/erewhon/Erewhon-BoldItalic.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/erewhon/Erewhon-Italic.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/erewhon/Erewhon-Regular.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/hel
+vetic/uhvr8a.pfb>
+Output written on Metier.pdf (7 pages, 263467 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18087 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 24236 words of extra memory for PDF output out of 24883 (max. 10000000)
 
