@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.20)  26 MAR 2020 02:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.20)  26 MAR 2020 13:01
 entering extended mode
 **./Metier.tex
 (Metier.tex
@@ -2010,7 +2010,7 @@ This may cause the page layout to be inconsistent, however.
 Here is how much of TeX's memory you used:
  38568 strings out of 480934
  752004 string characters out of 2909691
- 1179486 words of memory out of 3000000
+ 1179487 words of memory out of 3000000
  53394 multiletter control sequences out of 15000+200000
  613804 words of font info for 126 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2022,7 +2022,7 @@ les/MiKTeX 2.9/fonts/enc/dvips/erewhon/zut1_tzgz6e.enc}<C:/Program Files/MiKTeX
 onts/type1/public/erewhon/Erewhon-BoldItalic.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/erewhon/Erewhon-Regular.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Metier.pdf (4 pages, 191780 bytes).
+Output written on Metier.pdf (4 pages, 191776 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
