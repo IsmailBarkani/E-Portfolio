@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.20)  26 MAR 2020 02:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.20)  26 MAR 2020 02:21
 entering extended mode
-**./Metier.tex
-(Metier.tex
+**"./Prospection du marche.tex"
+("Prospection du marche.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\book.cls"
@@ -71,19 +71,20 @@ Package minitoc Info: I0003
 \mtc@hstrutbox=\box46
 Package minitoc Info: I0002
 (minitoc)             Autoconfiguration of extensions.
-\openout3 = `Metier.mtc0'.
+\openout3 = `"Prospection du marche.mtc0"'.
 
-\openout3 = `Metier.mtc'.
+\openout3 = `"Prospection du marche.mtc"'.
 
- (Metier.mtc0)
+
+("Prospection du marche.mtc0")
 Package minitoc Info: I0012
 (minitoc)             Long extensions (Unix-like) will be used.
 Package minitoc Info: I0031
 (minitoc)             ==> this version is configured for UNIX-like 
 (minitoc)                 (long extensions) file names.
-\openout3 = `Metier.mtc'.
+\openout3 = `"Prospection du marche.mtc"'.
 
-\openout3 = `Metier.mtc0'.
+\openout3 = `"Prospection du marche.mtc0"'.
 
 \c@mtc=\count179
 \c@minitocdepth=\count180
@@ -1570,20 +1571,41 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@footins=\box98
 ))
 Package minitoc Info: I0025
-(minitoc)             PREPARING PARTTOCS FROM Metier.toc on input line 48.
+(minitoc)             PREPARING PARTTOCS FROM "Prospection du marche".toc on in
+put line 48.
 
 {\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \n
-umberline {1}Bilan personnel}{\reset@font\ptcCfont 2}}
+umberline {1}Fiche métier:\textit {Développeur FullStack}}{\reset@font\ptcCfo
+nt 2}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {1.1}A propos }{\reset@font\ptcSfont 2}}
+umberline {1.1}Autres intitulés}{\reset@font\ptcSfont 2}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {1.2}Parcours universitaire}{\reset@font\ptcSfont 2}}
+umberline {1.2}Type d’employeurs et secteurs d’activité}{\reset@font\ptcSf
+ont 2}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {1.3}Expériences}{\reset@font\ptcSfont 2}}
+umberline {1.3}Missions}{\reset@font\ptcSfont 2}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {1.4}Ce que j'aime de faire}{\reset@font\ptcSfont 3}}
+umberline {1.4}Évolution de carrière}{\reset@font\ptcSfont 3}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {1.5}Ce que je voudrais être}{\reset@font\ptcSfont 3}}
+umberline {1.5}Salaire d’un Développeur full-stack}{\reset@font\ptcSfont 3}}
+
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {1.6}Formations privilégiées}{\reset@font\ptcSfont 3}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {1.7}Les compétences du développeur full-stack}{\reset@font\ptcSfon
+t 3}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {1.8}Les connaisances du développeur full-stack}{\reset@font\ptcSfon
+t 3}}
+{\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \n
+umberline {2}Carte d'identité d'entreprise: \textit {Capgemini}}{\reset@font\p
+tcCfont 5}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2.1}bref présentation}{\reset@font\ptcSfont 5}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2.2}présentation}{\reset@font\ptcSfont 6}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2.3}Écosystème}{\reset@font\ptcSfont 6}}
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 49.
@@ -1604,13 +1626,19 @@ Package: titletoc 2019/10/16 v2.13 TOC entries
 \ttl@leftsep=\dimen360
 )
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM Metier.toc on input line 149.
+(minitoc)             PREPARING MINITOCS FROM "Prospection du marche".toc on in
+put line 149.
 Package minitoc Info: I0033
-(minitoc)             Writing Metier.mtc1.
-\openout3 = `Metier.mtc1'.
+(minitoc)             Writing "Prospection du marche".mtc1.
+\openout3 = `"Prospection du marche.mtc1"'.
 
- (Metier.aux)
-\openout1 = `Metier.aux'.
+Package minitoc Info: I0033
+(minitoc)             Writing "Prospection du marche".mtc2.
+\openout3 = `"Prospection du marche.mtc2"'.
+
+
+("Prospection du marche.aux")
+\openout1 = `"Prospection du marche.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
 LaTeX Font Info:    ... okay on input line 150.
@@ -1881,14 +1909,19 @@ Package minitoc(hints) Info: I0045
 (minitoc(hints))             has been invoked more than once 
 (minitoc(hints))              on input line 206.
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM Metier.toc on input line 206.
+(minitoc)             PREPARING MINITOCS FROM "Prospection du marche".toc on in
+put line 206.
 Package minitoc Info: I0033
-(minitoc)             Writing Metier.mtc1.
-\openout3 = `Metier.mtc1'.
+(minitoc)             Writing "Prospection du marche".mtc1.
+\openout3 = `"Prospection du marche.mtc1"'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing "Prospection du marche".mtc2.
+\openout3 = `"Prospection du marche.mtc2"'.
 
 LaTeX Font Info:    Font shape `T1/erewhon-TLF/m/n' will be
 (Font)              scaled to size 24.88pt on input line 207.
- (Metier.toc
+ ("Prospection du marche.toc"
 Overfull \hbox (5.976pt too wide) detected at line 3
  []\T1/erewhon-TLF/m/n/12 2
  []
@@ -1913,9 +1946,39 @@ Overfull \hbox (5.976pt too wide) detected at line 7
  []\T1/erewhon-TLF/m/n/12 3
  []
 
+
+Overfull \hbox (5.976pt too wide) detected at line 8
+ []\T1/erewhon-TLF/m/n/12 3
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 9
+ []\T1/erewhon-TLF/m/n/12 3
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 10
+ []\T1/erewhon-TLF/m/n/12 3
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 12
+ []\T1/erewhon-TLF/m/n/12 5
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 13
+ []\T1/erewhon-TLF/m/n/12 6
+ []
+
+
+Overfull \hbox (5.976pt too wide) detected at line 14
+ []\T1/erewhon-TLF/m/n/12 6
+ []
+
 )
 \tf@toc=\write7
-\openout7 = `Metier.toc'.
+\openout7 = `"Prospection du marche.toc"'.
 
  [1
 
@@ -1924,9 +1987,9 @@ Overfull \hbox (5.976pt too wide) detected at line 7
 ]
 partie 1.
 LaTeX Font Info:    Font shape `T1/erewhon-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 209.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 20
-9.
+(Font)              scaled to size 17.28pt on input line 210.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 21
+0.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 
@@ -1956,24 +2019,66 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 15.89755pt on input line 209.
+(Font)              scaled to size 15.89755pt on input line 210.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 15.89755pt on input line 209.
+(Font)              scaled to size 15.89755pt on input line 210.
 LaTeX Font Info:    Font shape `T1/erewhon-TLF/m/n' will be
-(Font)              scaled to size 50.0pt on input line 209.
+(Font)              scaled to size 50.0pt on input line 210.
+
+Underfull \hbox (badness 4595) in paragraph at lines 210--210
+[]\T1/erewhon-TLF/b/n/24.88 Fiche m�-tier :\T1/erewhon-TLF/b/it/24.88 D�-ve-lop
+-peur Full-
+ []
+
 LaTeX Font Info:    Font shape `T1/erewhon-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 210.
- [2
+(Font)              scaled to size 17.28pt on input line 212.
+[2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Overfull \hbox (3.11304pt too wide) in paragraph at lines 240--244
+\T1/erewhon-TLF/b/n/12 Back-End : \T1/erewhon-TLF/m/n/12 (-20) JEE (ses-fram-wo
+rks : Spring, Jsf, Scruts...), No-dejs, py-thon (et ses-fram-works : Django...)
+,
+ []
+
+LaTeX Font Info:    Font shape `T1/erewhon-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 244.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.53203pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[3] [4]
+partie 2.
+<image/cap.jpg, id=67, 1204.5pt x 963.6pt>
+File: image/cap.jpg Graphic file (type jpg)
+<use image/cap.jpg>
+Package pdftex.def Info: image/cap.jpg  used on input line 247.
+(pdftex.def)             Requested size: 240.89574pt x 192.71658pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 245--249
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--249
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--263
+
+ []
+
+[5
+
+ <./image/cap.jpg>]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
-(minitoc)             Creating the Metier.maf file.
-\openout3 = `Metier.maf'.
+(minitoc)             Creating the "Prospection du marche".maf file.
+\openout3 = `"Prospection du marche.maf"'.
+
 
 
 Package minitoc(hints) Warning: W0075
@@ -1998,33 +2103,35 @@ Package minitoc(hints) Info: I0053
 
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
-(minitoc(hints))                in the Metier.log file.
+(minitoc(hints))                in the "Prospection du marche".log file.
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
+Underfull \hbox (badness 10000) in paragraph at lines 268--274
 
-[3] (Metier.aux) ) 
+ []
+
+[6] ("Prospection du marche.aux") ) 
 Here is how much of TeX's memory you used:
- 38568 strings out of 480934
- 752004 string characters out of 2909691
- 1179486 words of memory out of 3000000
- 53394 multiletter control sequences out of 15000+200000
- 613804 words of font info for 126 fonts, out of 3000000 for 9000
+ 38598 strings out of 480934
+ 752931 string characters out of 2909691
+ 1180588 words of memory out of 3000000
+ 53407 multiletter control sequences out of 15000+200000
+ 618417 words of font info for 136 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,103p,1042b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/
-Program Files/MiKTeX 2.9/fonts/enc/dvips/erewhon/zut1_iwqvab.enc}{C:/Program Fi
-les/MiKTeX 2.9/fonts/enc/dvips/erewhon/zut1_tzgz6e.enc}<C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/erewhon/Erewhon-Bold.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/erewhon/Erewhon-BoldItalic.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/erewhon/Erewhon-Regular.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Metier.pdf (4 pages, 191780 bytes).
+ 64i,11n,103p,1059b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
+/erewhon/zut1_iwqvab.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
+nc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/erewhon/zut1_tzgz6e.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/erewhon/Erewhon-Bold.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/erewhon/Erewhon-BoldItalic.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/erewhon/Erewhon-Italic.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/erewhon/Erewhon-Regular.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on "Prospection du marche.pdf" (7 pages, 267032 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18087 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 22188 words of extra memory for PDF output out of 24883 (max. 10000000)
 
